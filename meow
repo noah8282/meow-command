@@ -1,0 +1,46 @@
+#!/bin/bash
+# Print the ASCII Art
+cat << "EOF"
+       .                .                    
+       :"-.          .-";                    
+       |:`.`.__..__.'.';|                    
+       || :-"      "-; ||                    
+       :;              :;                    
+       /  .==.    .==.  \                    
+      :      _.--._      ;                   
+      ; .--.' `--' `.--. :                   
+     :   __;`      ':__   ;                  
+     ;  '  '-._:;_.-'  '  :                  
+     '.        `--'        .'                  
+      ."-._          _.-".                   
+    .'    ""------""      `.                 
+   /`-                    -'\                
+  /`-                      -'\               
+ :`-   .'              `.   -';              
+ ;    /                  \    :              
+:    :                    ;    ;             
+;    ;                    :    :             
+':_:.'                    '.:_;'             
+   :_                      _;                
+   ; "-._                -" :`-.     _.._    
+   :_          ()          _;   "--::__. `.  
+    \"-                  -"/`._           :  
+    .-"-.                  -"-.  ""--..____.'  
+   /         .__  __.          \               
+  : / ,        / "" \        . \ ; bug         
+   "-:___..--"      "--..___;-"
+EOF
+
+#current user
+echo "Username: $(whoami) 🧑‍💻"
+
+#hostname of the machine
+echo "OS name: $(hostname) 🖥️"
+
+#working directory
+echo "Current Directory: $(pwd) 📁"
+
+
+echo " ✨ this simple command shows current directory, username & OS ✨"
+echo " written by monu ツ"
+echo " just say meow! "
